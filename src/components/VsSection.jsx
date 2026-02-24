@@ -1,4 +1,5 @@
 import React from "react";
+import { COMPANY_NAME } from "../constants";
 
 const VsSection = () => {
     return (
@@ -32,7 +33,7 @@ const VsSection = () => {
                         <ul className="vs-list">
                             <li>You own the system forever — one-time investment</li>
                             <li>Your data lives on your server, always accessible</li>
-                            <li>Fully customizable to King Saree's exact workflow</li>
+                            <li>Fully customizable to {COMPANY_NAME}'s exact workflow</li>
                             <li>Grows with you — 1 store or 10 stores</li>
                             <li>
                                 Complete ERP — purchase, sales, inventory, accounting, HR, analytics

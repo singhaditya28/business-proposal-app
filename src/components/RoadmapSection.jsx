@@ -1,8 +1,9 @@
 import React from "react";
+import { COMPANY_NAME } from "../constants";
 
 const roadmapData = [
     { num: "01", week: "Week 0", title: "Kickoff Meeting", desc: "We sit with you and your CA to map out every process, understand your workflow, and plan the implementation." },
-    { num: "02", week: "Week 1-2", title: "System Setup", desc: "Configure the ERP for King Saree — items, categories, warehouses, pricing rules, user accounts, and permissions." },
+    { num: "02", week: "Week 1-2", title: "System Setup", desc: `Configure the ERP for ${COMPANY_NAME} — items, categories, warehouses, pricing rules, user accounts, and permissions.` },
     { num: "03", week: "Week 2-3", title: "Data Migration", desc: "Move your essential data from Intact — items, suppliers, customers, and opening balances." },
     { num: "04", week: "Week 3-5", title: "Staff Training", desc: "Hands-on training for all 25+ employees in batches. Simple guides they'll actually understand and use." },
     { num: "05", week: "Week 5-6", title: "Parallel Run", desc: "Run both Intact and the new system side by side. Zero risk. Full confidence." },

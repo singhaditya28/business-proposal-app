@@ -1,4 +1,5 @@
 import React from "react";
+import { COMPANY_NAME } from "../constants";
 
 const events = [
     {
@@ -24,7 +25,7 @@ const DayInLifeSection = () => {
             <div className="section-inner">
                 <div className="section-label">Imagine This</div>
                 <h2 className="section-title">
-                    A Day at King Saree — After Implementation
+                    A Day at {COMPANY_NAME} — After Implementation
                 </h2>
                 <p className="section-subtitle">
                     Here's what running your business will feel like with the new system.

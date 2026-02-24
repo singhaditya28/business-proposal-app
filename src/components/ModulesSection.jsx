@@ -1,4 +1,5 @@
 import React from "react";
+import { COMPANY_NAME } from "../constants";
 
 const modulesData = [
     {
@@ -68,7 +69,7 @@ const modulesData = [
         num: "Module 05",
         title: "Mobile Access & Reports",
         hindi: "Phone pe sab kuch",
-        desc: "Full ERP access from your smartphone, plus 10 custom reports designed specifically for King Saree — daily sales, stock by category, customer outstandings, dead stock, profit margins, GST summaries, and more.",
+        desc: `Full ERP access from your smartphone, plus 10 custom reports designed specifically for ${COMPANY_NAME} — daily sales, stock by category, customer outstandings, dead stock, profit margins, GST summaries, and more.`,
         features: [
             "Daily Sales Summary",
             "Stock by Category",
@@ -153,7 +154,7 @@ const modulesData = [
             "Store-specific Pricing",
             "Unified Controls",
         ],
-        imageUrl: "https://frappe.io/files/Screenshot%202023-04-26%20at%2016.51.30.png",
+        imageUrl: "https://frappe.io/files/warehouses.png",
         reverse: true,
     },
     {
@@ -180,7 +181,7 @@ const ModulesSection = () => {
                 <div className="section-label">What We'll Build for You</div>
                 <h2 className="section-title">11 Modules. One Complete System.</h2>
                 <p className="section-subtitle">
-                    Every module is configured specifically for King Saree — your
+                    Every module is configured specifically for {COMPANY_NAME} — your
                     products, your workflow, your team.
                 </p>
 
